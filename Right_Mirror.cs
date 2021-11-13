@@ -24,7 +24,7 @@ namespace Right_Mirror
         public Material mirrormodel;
         public override void ModSettings()
         {
-            //CleanSatsumaTexture = modSettings.AddToggle("CleanTextures", "Adds clean satsuma textures to the mirror",false);  //waiting for response of texture creator
+            CleanSatsumaTexture = modSettings.AddToggle("CleanTextures", "Adds clean satsuma textures to the mirror",false);
         }
         public override void OnNewGame()
         {
